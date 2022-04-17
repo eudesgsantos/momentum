@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for row in data %}
+    {{row[0]}}
+    <ul>
+        {% for element in row[1:] %}
+            <li>{{element|join(', ')}}<li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+</body>
+</html>
