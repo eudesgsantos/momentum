@@ -1,5 +1,14 @@
+backports.statistics==0.1.0
+Cython==0.29.28
+dl==0.1.0
 Flask==2.1.1
 Flask_Migrate==3.1.0
 Flask_SQLAlchemy==2.5.1
+ipaddr==2.2.0
+keyring==18.0.1
 matplotlib==3.5.1
+mypy_extensions==0.4.3
+numpy==1.22.3
+ordereddict==1.1
 pandas==1.4.2
+wincertstore==0.2.1
